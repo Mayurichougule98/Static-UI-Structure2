@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Web UI</title>
+    <style>
+        .centercontent {
+            height: 300px;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .centercontent .content {
+            height: 300px;
+            width: 25%;
+            border: 1px solid black;
+            float: left;
+        }
+
+        .centercontent .main-content {
+            height: 300px;
+            width: 49%;
+            border: 1px solid black;
+            margin-left: 5px;
+            float: left;
+        }
+        .centercontent .leftcontent {
+            height: 300px;
+            width: 24%;
+            border: 1px solid black;
+            margin-left: 5px;
+            float: left;
+        }
+        #footer{
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div style="border: 1px solid black; text-align: center; margin-bottom: 20px;" id="header">
+            <h2>Header</h2>
+        </div>
+
+        <div style="border: 1px solid black; text-align: center; margin-bottom: 20px;" id="navigation">
+            <h2>Navigation Bar</h2>
+        </div>
+
+        <div class="centercontent">
+            <div class="content">
+                <h2>Content</h2>
+            </div>
+
+            <div class="main-content">
+                <h2>Main-Content</h2>
+            </div>
+
+            <div class="leftcontent">
+                <h2>Content</h2>
+            </div>
+        </div>
+
+        <div id="footer">
+            <h2>Footer</h2>
+        </div>
+    </div>
+</body>
+
+</html>
